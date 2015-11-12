@@ -10,6 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var myStation: RadioStation
+    
+    required init?(coder aDecoder: NSCoder) {
+        myStation = RadioStation()
+        myStation.freq = 125.5
+        myStation.name = "Knix"
+        super.init(coder: aDecoder)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

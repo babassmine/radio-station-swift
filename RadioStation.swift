@@ -37,7 +37,7 @@ class RadioStation {
         if freq >= RadioStation.minFMFrequency() && freq <= RadioStation.maxFMFrequency(){
             return 1 //FM
         }else {
-            return 0 //AM
+            return 0 //AM   
         }
     }
 }
