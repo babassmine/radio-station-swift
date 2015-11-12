@@ -12,6 +12,10 @@ class ViewController: UIViewController {
 
     var myStation: RadioStation
     
+    @IBOutlet var stationName : UILabel!
+    @IBOutlet var stationFreq : UILabel!
+    @IBOutlet var stationBand : UILabel!
+    
     required init?(coder aDecoder: NSCoder) {
         myStation = RadioStation()
         myStation.freq = 125.5
