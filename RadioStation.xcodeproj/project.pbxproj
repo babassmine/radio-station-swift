@@ -14,6 +14,7 @@
 		CE983E211BF4287C000C63FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE983E1F1BF4287C000C63FB /* LaunchScreen.storyboard */; };
 		CE983E2C1BF4287C000C63FB /* RadioStationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE983E2B1BF4287C000C63FB /* RadioStationTests.swift */; };
 		CE983E371BF4287C000C63FB /* RadioStationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE983E361BF4287C000C63FB /* RadioStationUITests.swift */; };
+		CE983E451BF42915000C63FB /* RadioStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE983E441BF42915000C63FB /* RadioStation.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CE983E321BF4287C000C63FB /* RadioStationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadioStationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE983E361BF4287C000C63FB /* RadioStationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioStationUITests.swift; sourceTree = "<group>"; };
 		CE983E381BF4287C000C63FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE983E441BF42915000C63FB /* RadioStation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioStation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		CE983E0A1BF4287C000C63FB = {
 			isa = PBXGroup;
 			children = (
+				CE983E441BF42915000C63FB /* RadioStation.swift */,
 				CE983E151BF4287C000C63FB /* RadioStation */,
 				CE983E2A1BF4287C000C63FB /* RadioStationTests */,
 				CE983E351BF4287C000C63FB /* RadioStationUITests */,
@@ -257,6 +260,7 @@
 			files = (
 				CE983E191BF4287C000C63FB /* ViewController.swift in Sources */,
 				CE983E171BF4287C000C63FB /* AppDelegate.swift in Sources */,
+				CE983E451BF42915000C63FB /* RadioStation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
