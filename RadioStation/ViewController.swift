@@ -33,6 +33,16 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func buttonClick(sender: AnyObject) {
+        stationName.text = myStation.name
+        stationFreq.text = String(format: "%.1f",myStation.freq)
+        
+        if myStation.freq >= RadioStation.maxFMFrequency() && myStation.freq <= RadioStation.maxFMFrequency(){
+            stationBand.text = "FM"
+        }else{
+            stationBand.text = "AM"
+        }
+    }
 
 }
 
